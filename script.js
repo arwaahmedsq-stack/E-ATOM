@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                         requestAnimationFrame(fadeGlow);
                                     } else {
                                         setTimeout(() => {
-                                            window.location.href = 'index.html';
+                                            window.location.href = 'main.html';
                                         }, 100);
                                     }
                                 }
@@ -520,4 +520,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     console.log('JavaScript initialization complete!');
+
 });
